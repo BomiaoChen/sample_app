@@ -2,6 +2,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def hello
-    render html: "hello, world!"
+    render html: "Testing wake up heroku!"
   end
 end
